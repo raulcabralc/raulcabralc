@@ -1,7 +1,7 @@
 <h1 align="center">Hello! I'm Raul Cabral</h1>
 <h3 align="center">A Front and Back End enthusiast from Brazil 🇧🇷.</h3>
 
-- 🌌 I’m currently working on [Contact Agenda, a MVC and CRUD project.](https://www.linkedin.com/feed/update/urn:li:activity:7315914793834491905/)
+- 🌌 I’m currently working on [School API, an API and CRUD project.]
 
 - 🌱 I’m currently learning **JavaScript and its most efficient frameworks in Back end**
 
