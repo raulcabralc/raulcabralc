@@ -102,7 +102,4 @@
 <p>
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raulcabralc&layout=donut&theme=dark" />
 </p>
-<p>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=raulcabralc&theme=dark" />
-</p>
 
