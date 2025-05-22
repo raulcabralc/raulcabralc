@@ -3,15 +3,15 @@
 
 - 🌌 I’m currently working on **School Management App, a CRUD project using React, Redux and consuming my API.**
 
-- 🌱 I’m currently learning **JavaScript and its most efficient frameworks in Back end**
+- 🌱 I’m currently learning **React and Redux**
 
-- 🤝 I’m looking to collaborate on **Simple JS projects**
+- 🤝 I’m looking to collaborate on **Front / Back End Projects**
 
 - 🗂️ All of my projects are available at [https://raulcabral.netlify.app/](https://raulcabral.netlify.app/)
 
 - 📫 How to reach me **raulcabralc@gmail.com**
 
-- 🌎 I can speak **advanced English and Portuguese**
+- 🌎 I can speak **English and Portuguese**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
