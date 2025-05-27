@@ -1,105 +1,58 @@
-<h1 align="center">Hello! I'm Raul Cabral</h1>
-<h3 align="center">A Front and Back End enthusiast from Brazil 🇧🇷.</h3>
+# 👋 Hi there! I'm Raul Cabral
 
-- 🌌 I’m currently working on **School Management App, a CRUD project using React, Redux and consuming my API.**
+## 🚀 About Me
 
-- 🌱 I’m currently learning **React and Redux**
+Passionate developer with a love for technology and full-stack development experience. Always seeking new challenges and opportunities to grow professionally.
 
-- 🤝 I’m looking to collaborate on **Front / Back End Projects**
+## 💻 Tech Stack & Tools
 
-- 🗂️ All of my projects are available at [https://raulcabral.netlify.app/](https://raulcabral.netlify.app/)
+### Languages
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![SCSS](https://img.shields.io/badge/-SCSS-CC6699?style=flat-square&logo=sass&logoColor=white)
 
-- 📫 How to reach me **raulcabralc@gmail.com**
+### Backend & Databases
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Flask](https://img.shields.io/badge/-Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/-MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
 
-- 🌎 I can speak **English and Portuguese**
+## 📈 GitHub Stats
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/raul-cabral-caxeta" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="raul cabral caxeta" height="30" width="40" /></a>
-<a href="https://instagram.com/raulcdev" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="raulcdev" height="30" width="40" /></a>
-</p>
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raulcabralc&layout=compact&langs_count=7&theme=dark"/>
+</div>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-  <a
-    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-    target="_blank"
-    rel="noreferrer"
-  >
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
-      alt="javascript"
-      width="40"
-      height="40"
-    />
-  </a>
+## 💼 Experience & Skills
 
-  <a href="https://webpack.js.org" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/d00d0969292a6569d45b06d3f350f463a0107b0d/icons/webpack/webpack-original-wordmark.svg"
-      alt="webpack"
-      width="40"
-      height="40"
-    />
-  </a>
+- 🌐 **Full-Stack Development**: Building complete applications from frontend to backend
+- 🎨 **Frontend Development**: Creating responsive and intuitive user interfaces
+- ⚙️ **Backend Development**: Developing robust APIs and server-side systems
+- 🗄️ **Database Management**: Data modeling and management with MongoDB, MySQL, and MariaDB
 
-  <a href="https://expressjs.com" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
-      alt="express"
-      width="40"
-      height="40"
-    />
-  </a>
+## 🔭 What I'm Working On
 
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
-      alt="mongodb"
-      width="40"
-      height="40"
-    />
-  </a>
+- Developing full-stack applications with modern technologies
+- Exploring new frameworks and best practices
+- Contributing to open-source projects
 
-  <a href="https://www.python.org" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
-      alt="python"
-      width="40"
-      height="40"
-    />
-  </a>
+## 📫 Let's Connect
 
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
-      alt="css3"
-      width="40"
-      height="40"
-    />
-  </a>
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/raul-cabral-caxeta)
+[![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:raulcabralc@gmail.com)
+[![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=flat-square&logo=github&logoColor=white)](https://raulcabral.netlify.app/)
 
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
-      alt="html5"
-      width="40"
-      height="40"
-    />
-  </a>
+## ⚡ Fun Facts
 
-  <a href="https://sass-lang.com" target="_blank" rel="noreferrer">
-    <img
-      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg"
-      alt="sass"
-      width="40"
-      height="40"
-    />
-  </a>
-</p>
+- 🔭 Currently working on full-stack projects
+- 🌱 Always learning new technologies and frameworks
+- 💬 Love sharing knowledge and collaborating on interesting projects
+- 🎯 Focused on writing clean, efficient, and scalable code
 
+---
 
-<p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raulcabralc&layout=donut&theme=dark" />
-</p>
-
+⭐️ **Don't forget to star repositories you find interesting!**
