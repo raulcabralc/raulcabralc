@@ -1,19 +1,63 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 export function Hero() {
-  return (
-    <div className="px-80 py-40 h-[70vh] w-full bg-neutral-950 flex flex-col items-start justify-start relative overflow-hidden">
-      <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:25px_25px]"></div>
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [isMouseInside, setIsMouseInside] = useState(false);
 
+  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
+    const rect = e.currentTarget.getBoundingClientRect();
+    setMousePos({
+      x: e.clientX - rect.left,
+      y: e.clientY - rect.top,
+    });
+    setIsMouseInside(true);
+  };
+
+  const handleMouseLeave = () => {
+    setIsMouseInside(false);
+  };
+
+  return (
+    <div
+      className="px-4 sm:px-8 lg:px-16 xl:px-80 py-20 sm:py-32 lg:py-40 h-[70vh] w-full bg-neutral-950 flex flex-col items-center lg:items-start justify-center relative overflow-hidden"
+      onMouseMove={handleMouseMove}
+      onMouseLeave={handleMouseLeave}
+    >
+      {/* Grid Base */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2f_1px,transparent_1px)] bg-[size:25px_25px]"></div>
+
+      {/* Interactive Grid Overlay */}
+      <div
+        className={`absolute inset-0 pointer-events-none transition-opacity duration-300 ${
+          isMouseInside ? "opacity-100" : "opacity-0"
+        }`}
+        style={{
+          maskImage: `radial-gradient(200px circle at ${mousePos.x}px ${mousePos.y}px, 
+        rgba(0,0,0,0.2) 0%, 
+        rgba(0,0,0,0.2) 50%, 
+        rgba(0,0,0,0.05) 80%, 
+        transparent 100%)`,
+          WebkitMaskImage: `radial-gradient(200px circle at ${mousePos.x}px ${mousePos.y}px, 
+        rgba(0,0,0,0.2) 0%, 
+        rgba(0,0,0,0.2) 50%, 
+        rgba(0,0,0,0.05) 80%, 
+        transparent 100%)`,
+        }}
+      >
+        <div className="absolute inset-0 bg-[linear-gradient(to_right,#7f7f7f_1px,transparent_1px),linear-gradient(to_bottom,#7f7f7f_1px,transparent_1px)] bg-[size:25px_25px]"></div>
+      </div>
+
+      {/* Fade overlay */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,transparent_20%,rgb(10,10,10)),linear-gradient(to_bottom,transparent_70%,rgb(10,10,10))]"></div>
 
+      {/* Content */}
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
-        className="relative z-10 flex flex-col items-start mt-20"
+        className="relative z-10 flex flex-col items-center lg:items-start text-center lg:text-left"
       >
         {/* Status Badge */}
         <motion.div
@@ -25,12 +69,12 @@ export function Hero() {
           🟢 Available for projects
         </motion.div>
 
-        {/* Nome */}
+        {/* Name */}
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="md:text-7xl text-3xl font-bold text-left text-white relative z-20"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white relative z-20"
         >
           <span className="relative inline-block">
             Raul Cabral
@@ -48,12 +92,12 @@ export function Hero() {
           </span>
         </motion.h1>
 
-        {/* Descrição */}
+        {/* Description */}
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="mt-4 font-normal text-base text-neutral-300 max-w-lg text-left"
+          className="mt-4 font-normal text-base sm:text-lg text-neutral-300 max-w-lg"
         >
           Full Stack Developer •{" "}
           <span className="text-rebound">NestJS & TypeScript</span>
@@ -67,7 +111,7 @@ export function Hero() {
           </span>
         </motion.p>
 
-        {/* Localização */}
+        {/* Local */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

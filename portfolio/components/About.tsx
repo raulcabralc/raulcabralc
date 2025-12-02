@@ -1,10 +1,12 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
+import { AnimatedCounter } from "./AnimatedCounter";
+import { FlipCounter } from "./FlipCounter";
 
 export function About() {
   return (
-    <section className="py-20 px-80 bg-neutral-950">
+    <section className="py-20 px-4 sm:px-8 lg:px-16 xl:px-80 bg-neutral-950">
       <div className="max-w-4xl">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -48,15 +50,19 @@ export function About() {
               {/* Stats */}
               <div className="grid grid-cols-3 gap-6 pt-6">
                 <div>
-                  <div className="text-2xl font-bold text-rebound">15+</div>
+                  <div className="text-2xl font-bold text-rebound">
+                    <AnimatedCounter end={15} suffix="+" />
+                  </div>
                   <div className="text-sm text-neutral-400">Projects Built</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-rebound">5+</div>
+                  <div className="text-2xl font-bold text-rebound">
+                    <AnimatedCounter end={5} suffix="+" />
+                  </div>
                   <div className="text-sm text-neutral-400">Technologies</div>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-rebound">24/7</div>
+                  <FlipCounter />
                   <div className="text-sm text-neutral-400">
                     Learning Mindset
                   </div>

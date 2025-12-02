@@ -5,7 +5,7 @@ import { ScrollIndicator } from "@/components/ScrollIndicator";
 
 export default function Home() {
   return (
-    <main className="bg-neutral-950 flex min-h-screen flex-col items-center text-white">
+    <main className="bg-neutral-950 flex min-h-screen flex-col items-center text-white cursor-default">
       <Header />
       <Hero />
       <About />
