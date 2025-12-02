@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-neutral-800;
+  }
+
+  body {
+    @apply bg-neutral-950 text-white;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-white to-neutral-400 bg-clip-text text-transparent;
+  }
+
+  .glow-rebound {
+    box-shadow: 0 0 20px rgba(242, 95, 76, 0.5);
+  }
+}
+
+@keyframes slideUnderline {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-180%);
+  }
+}
+
+@keyframes typingCursorSmooth {
+  0%,
+  40% {
+    opacity: 1;
+  }
+  50%,
+  90% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
