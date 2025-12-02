@@ -81,6 +81,7 @@ export function Hero() {
             <span className="absolute bottom-0 left-0 w-full h-0.5 overflow-hidden">
               <span
                 className="absolute bottom-0 w-full h-full rounded-xl"
+                suppressHydrationWarning
                 style={{
                   background:
                     "linear-gradient(to right, transparent 50%, rgba(242,95,76,0.3) 50%, #F25F4C 50%, rgba(242,95,76,0.3) 60%, transparent 70%, transparent 100%)",
@@ -103,6 +104,7 @@ export function Hero() {
           <span className="text-rebound">NestJS & TypeScript</span>
           <span
             className="text-neutral-300 ml-1"
+            suppressHydrationWarning
             style={{
               animation: "typingCursorSmooth 2s ease-in-out infinite",
             }}
@@ -118,7 +120,12 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.8 }}
           className="mt-3 flex items-center text-sm text-neutral-500"
         >
-          <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+          <svg
+            className="w-4 h-4 mr-1"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            suppressHydrationWarning
+          >
             <path
               fillRule="evenodd"
               d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"

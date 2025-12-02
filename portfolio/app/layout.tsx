@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Outfit, JetBrains_Mono } from "next/font/google";
+import { HydrationWarningSupressor } from "../components/HydrationWarningSupressor";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -23,11 +24,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className="dark">
+    <html lang="pt-BR" className="dark" suppressHydrationWarning>
       <body
         className={`${outfit.variable} ${jetbrainsMono.variable} antialiased bg-neutral-950 text-white font-outfit`}
+        suppressHydrationWarning
       >
-        {children}
+        <HydrationWarningSupressor>{children}</HydrationWarningSupressor>
 
         <div className="fixed bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-neutral-950 to-transparent pointer-events-none z-40"></div>
       </body>

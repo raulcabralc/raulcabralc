@@ -53,6 +53,7 @@ export function Header() {
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
+            suppressHydrationWarning
             animate={{
               opacity: isMenuOpen ? 0 : 1,
               rotate: isMenuOpen ? 90 : 0,
@@ -73,6 +74,7 @@ export function Header() {
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
+            suppressHydrationWarning
             animate={{
               opacity: isMenuOpen ? 1 : 0,
               rotate: isMenuOpen ? 0 : -90,
