@@ -6,47 +6,47 @@ import Image from "next/image";
 const topRowTechs = [
   {
     name: "TypeScript",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    logo: "https://cdn.simpleicons.org/typescript",
     url: "https://www.typescriptlang.org/",
   },
   {
     name: "Java",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+    logo: "https://cdn.simpleicons.org/openjdk",
     url: "https://www.oracle.com/java/",
   },
   {
     name: "Sass",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+    logo: "https://cdn.simpleicons.org/sass",
     url: "https://sass-lang.com/",
   },
   {
     name: "React",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    logo: "https://cdn.simpleicons.org/react",
     url: "https://react.dev/",
   },
   {
     name: "Storybook",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/storybook/storybook-original.svg",
+    logo: "https://cdn.simpleicons.org/storybook",
     url: "https://storybook.js.org/",
   },
   {
     name: "Node.js",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+    logo: "https://cdn.simpleicons.org/nodedotjs",
     url: "https://nodejs.org/",
   },
   {
     name: "Flask",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg",
+    logo: "https://cdn.simpleicons.org/flask",
     url: "https://flask.palletsprojects.com/",
   },
   {
     name: "NestJS",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg",
+    logo: "https://cdn.simpleicons.org/nestjs",
     url: "https://nestjs.com/",
   },
   {
     name: "Spring Boot",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
+    logo: "https://cdn.simpleicons.org/springboot",
     url: "https://spring.io/projects/spring-boot",
   },
 ];
@@ -54,32 +54,32 @@ const topRowTechs = [
 const bottomRowTechs = [
   {
     name: "Jest",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg",
+    logo: "https://cdn.simpleicons.org/jest",
     url: "https://jestjs.io/",
   },
   {
     name: "RabbitMQ",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rabbitmq/rabbitmq-original.svg",
+    logo: "https://cdn.simpleicons.org/rabbitmq",
     url: "https://www.rabbitmq.com/",
   },
   {
     name: "Docker",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+    logo: "https://cdn.simpleicons.org/docker",
     url: "https://www.docker.com/",
   },
   {
     name: "MongoDB",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+    logo: "https://cdn.simpleicons.org/mongodb",
     url: "https://www.mongodb.com/",
   },
   {
     name: "MySQL",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+    logo: "https://cdn.simpleicons.org/mysql",
     url: "https://www.mysql.com/",
   },
   {
     name: "PostgreSQL",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+    logo: "https://cdn.simpleicons.org/postgresql",
     url: "https://www.postgresql.org/",
   },
   {
@@ -89,7 +89,7 @@ const bottomRowTechs = [
   },
   {
     name: "Python",
-    logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
+    logo: "https://cdn.simpleicons.org/python",
     url: "https://www.python.org/",
   },
 ];
@@ -164,7 +164,7 @@ export function Technologies() {
                         href={tech.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-3 bg-neutral-900/50 px-4 py-3 rounded-lg border border-neutral-800 flex-shrink-0 hover:bg-neutral-800/70 hover:border-rebound/50 transition-all duration-300 cursor-pointer"
+                        className="group flex items-center gap-3 bg-neutral-900/50 px-4 py-3 rounded-lg border border-neutral-800 flex-shrink-0 hover:bg-neutral-800/70 hover:border-rebound/50 transition-all duration-300 cursor-pointer"
                       >
                         <Image
                           suppressHydrationWarning
@@ -172,6 +172,7 @@ export function Technologies() {
                           alt={tech.name}
                           width={28}
                           height={28}
+                          className="transition-all duration-300 brightness-0 invert opacity-60 group-hover:brightness-100 group-hover:invert-0 group-hover:opacity-100"
                         />
                         <span className="text-white font-medium text-sm whitespace-nowrap">
                           {tech.name}
@@ -195,7 +196,7 @@ export function Technologies() {
                       href={tech.url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="flex items-center gap-3 bg-neutral-900/50 px-4 py-3 rounded-lg border border-neutral-800 flex-shrink-0 hover:bg-neutral-800/70 hover:border-rebound/50 transition-all duration-300 cursor-pointer"
+                      className="group flex items-center gap-3 bg-neutral-900/50 px-4 py-3 rounded-lg border border-neutral-800 flex-shrink-0 hover:bg-neutral-800/70 hover:border-rebound/50 transition-all duration-300 cursor-pointer"
                     >
                       <Image
                         suppressHydrationWarning
@@ -203,6 +204,7 @@ export function Technologies() {
                         alt={tech.name}
                         width={28}
                         height={28}
+                        className="transition-all duration-300 brightness-0 invert opacity-60 group-hover:brightness-100 group-hover:invert-0 group-hover:opacity-100"
                       />
                       <span className="text-white font-medium text-sm whitespace-nowrap">
                         {tech.name}
