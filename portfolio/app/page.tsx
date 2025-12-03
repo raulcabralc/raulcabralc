@@ -1,6 +1,7 @@
 import { About } from "@/components/About";
 import { Header } from "@/components/Header";
 import { Hero } from "@/components/Hero";
+import { Projects } from "@/components/Projects";
 import { ScrollIndicator } from "@/components/ScrollIndicator";
 import { Technologies } from "@/components/Technologies";
 
@@ -11,6 +12,7 @@ export default function Home() {
       <Hero />
       <About />
       <Technologies />
+      <Projects />
       <ScrollIndicator />
     </main>
   );

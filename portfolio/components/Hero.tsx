@@ -1,10 +1,20 @@
 "use client";
 import React, { useState } from "react";
 import { motion } from "framer-motion";
+import { FlipWords } from "./ui/flip-words";
 
 export function Hero() {
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [isMouseInside, setIsMouseInside] = useState(false);
+
+  const words = [
+    "Full Stack Developer",
+    "Back End Developer",
+    "Front End Developer",
+    "Tech Enthusiast",
+    "Creative Mind",
+    "DevOps Engineer",
+  ];
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     const rect = e.currentTarget.getBoundingClientRect();
@@ -21,6 +31,7 @@ export function Hero() {
 
   return (
     <div
+      id="home"
       className="px-4 sm:px-8 lg:px-16 xl:px-80 py-20 sm:py-32 lg:py-40 h-[70vh] w-full bg-neutral-950 flex flex-col items-center lg:items-start justify-center relative overflow-hidden"
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
@@ -76,42 +87,14 @@ export function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-white relative z-20"
         >
-          <span className="relative inline-block">
-            Raul Cabral
-            <span className="absolute bottom-0 left-0 w-full h-0.5 overflow-hidden">
-              <span
-                className="absolute bottom-0 w-full h-full rounded-xl"
-                suppressHydrationWarning
-                style={{
-                  background:
-                    "linear-gradient(to right, transparent 50%, rgba(242,95,76,0.3) 50%, #F25F4C 50%, rgba(242,95,76,0.3) 60%, transparent 70%, transparent 100%)",
-                  animation: "slideUnderline 2.5s linear infinite",
-                  transform: "translateX(-100%)",
-                }}
-              ></span>
-            </span>
-          </span>
+          <span className="relative inline-block">Raul Cabral</span>
         </motion.h1>
 
         {/* Description */}
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-          className="mt-4 font-normal text-base sm:text-lg text-neutral-300 max-w-lg"
-        >
-          Full Stack Developer •{" "}
-          <span className="text-rebound">NestJS & TypeScript</span>
-          <span
-            className="text-neutral-300 ml-1"
-            suppressHydrationWarning
-            style={{
-              animation: "typingCursorSmooth 2s ease-in-out infinite",
-            }}
-          >
-            |
-          </span>
-        </motion.p>
+        <FlipWords
+          words={words}
+          className="mt-1 font-normal text-xl sm:text-3xl max-w-lg text-rebound"
+        ></FlipWords>
 
         {/* Local */}
         <motion.div

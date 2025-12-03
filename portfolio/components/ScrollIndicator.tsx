@@ -28,7 +28,7 @@ export function ScrollIndicator() {
 
   return (
     <div
-      className={`fixed bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce transition-opacity duration-500 z-50 ${
+      className={`fixed bottom-8 inset-x-0 mx-auto w-fit animate-bounce transition-opacity duration-800 z-50 ${
         showScrollIndicator ? "opacity-100" : "opacity-0 pointer-events-none"
       }`}
     >

@@ -6,7 +6,10 @@ import { FlipCounter } from "./FlipCounter";
 
 export function About() {
   return (
-    <section className="py-20 px-4 sm:px-8 lg:px-16 xl:px-80 bg-neutral-950">
+    <section
+      id="about"
+      className="py-20 px-4 sm:px-8 lg:px-16 xl:px-80 bg-neutral-950"
+    >
       <div className="max-w-4xl">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -27,7 +30,7 @@ export function About() {
             <div className="md:col-span-2 space-y-4">
               <p className="text-neutral-300 leading-relaxed">
                 I'm a dedicated Full Stack Developer who discovered my passion
-                for coding in early 2024. Since then, I've been on an intensive
+                for coding in early 2025. Since then, I've been on an intensive
                 journey mastering modern web technologies, specializing in{" "}
                 <span className="text-white font-medium">
                   NestJS, React, TypeScript, and AWS cloud architecture
@@ -85,6 +88,7 @@ export function About() {
           </div>
         </motion.div>
       </div>
+      <div id="techs"></div>
     </section>
   );
 }
