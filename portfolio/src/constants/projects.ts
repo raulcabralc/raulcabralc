@@ -41,11 +41,11 @@ export const projects: Project[] = [
     npmVersion: "1.0.0",
   },
   {
-    title: "Compass Product API",
+    title: "PythonSOS",
     description:
-      "Microservice for product management developed during the Compass UOL scholarship program (Project 1).",
-    tech: ["Java", "Spring Boot", "PostgreSQL", "Docker", "Jest"],
-    github: "https://github.com/raulcabralc/ANJUN25_D01_COMPASSPRODUCT",
+      "A Python-based project built to help other Python students with the language documentation and general questions, featuring Gemini AI integration.",
+    tech: ["Flask", "Python", "Gemini AI Integration", "Scss"],
+    github: "https://github.com/raulcabralc/flask-project",
   },
   {
     title: "Compass Imob",
@@ -80,7 +80,7 @@ export const projects: Project[] = [
     title: "Melanoma Detection Project",
     description:
       "AI-powered project for analyzing skin images to assist in the early detection of melanoma using computer vision.",
-    tech: ["Flask", "Python", "HTML", "Scss"],
+    tech: ["Flask", "Python", "Custom AI Agent", "Scss"],
     github: "https://github.com/lucansdev/melanoma_project",
   },
 ];
