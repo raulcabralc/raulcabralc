@@ -49,5 +49,3 @@ building robust web applications and digital experiences with a focus on perform
 | **[rebound-ts](https://github.com/raulcabralc/rebound-ts)** | resilient retry wrapper for typescript functions. | `ts` `npm` |
 | **[financial-calc-br](https://github.com/raulcabralc/financial-calc-br)** | financial engine adapted for brazilian context. | `ts` `math` |
 | **[raulc.dev](https://raulc.dev)** | personal portfolio and documentation hub. | `next.js` `three.js` |
-
-<br />
