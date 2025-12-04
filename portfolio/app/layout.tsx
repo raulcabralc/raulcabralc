@@ -33,6 +33,8 @@ export default function RootLayout({
       >
         <HydrationWarningSupressor>{children}</HydrationWarningSupressor>
 
+        <SpeedInsights />
+
         <div className="fixed bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-neutral-950 to-transparent pointer-events-none z-40"></div>
       </body>
     </html>
