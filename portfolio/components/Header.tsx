@@ -24,11 +24,11 @@ export function Header() {
     >
       <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
         <Image
-          src="/assets/clean-logo.png"
+          src="/assets/logo-clean.png"
           alt="Logo"
           width={50}
           height={50}
-          className="sm:h-16 h-10 w-auto hover:transform hover:scale-105 transition-transform duration-300 ease-in-out"
+          className="h-10 w-auto hover:transform hover:scale-105 transition-transform duration-300 ease-in-out"
         />
 
         <nav className="hidden md:flex items-center space-x-8">
