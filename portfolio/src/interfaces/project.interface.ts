@@ -3,6 +3,6 @@ export interface Project {
   description: string;
   tech: string[];
   github: string;
-  docs?: string;
-  npmVersion?: string;
+  version?: string;
+  docSlug?: string;
 }

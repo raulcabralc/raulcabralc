@@ -14,7 +14,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Raul Cabral // Dev",
+  title: "raul cabral • dev",
   description: "Raul Cabral Portfolio",
 };
 

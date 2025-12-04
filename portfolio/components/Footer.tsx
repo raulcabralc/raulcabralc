@@ -66,7 +66,7 @@ export function Footer() {
   };
 
   return (
-    <footer className="bg-neutral-950 border-t border-neutral-900 pt-16 pb-8 relative overflow-hidden">
+    <footer className="bg-neutral-950 border-t border-neutral-900 w-full pt-16 pb-8 relative overflow-hidden">
       {/* Luz de fundo sutil (Glow) */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-px bg-gradient-to-r from-transparent via-rebound/50 to-transparent opacity-50"></div>
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-96 h-24 bg-rebound/10 blur-[60px] rounded-full pointer-events-none"></div>

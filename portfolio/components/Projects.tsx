@@ -42,9 +42,9 @@ export function Projects() {
                     <div className="flex flex-col h-full relative z-20">
                       <h3 className="flex text-xl font-bold text-white mb-4 gap-3">
                         {project.title}
-                        {project.npmVersion && (
+                        {project.version && (
                           <span className="px-2 py-1 text-xs bg-neutral-900/50 text-rebound-dark rounded-full border border-neutral-700/50">
-                            v{project.npmVersion}
+                            v{project.version}
                           </span>
                         )}
                       </h3>
@@ -79,9 +79,9 @@ export function Projects() {
                           </svg>
                           Code
                         </a>
-                        {project.docs && (
+                        {project.docSlug && (
                           <a
-                            href={project.docs}
+                            href={`docs.raulc.dev/docs/${project.docSlug}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-2 text-neutral-100 hover:text-rebound transition-colors text-sm"

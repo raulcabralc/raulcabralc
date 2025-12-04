@@ -7,8 +7,8 @@ export const projects: Project[] = [
       "A TypeScript utility library or framework wrapper designed to enhance developer productivity with strict typing and resilience patterns.",
     tech: ["TypeScript", "NPM Package", "Decorator"],
     github: "https://github.com/raulcabralc/rebound-ts",
-    docs: "https://rebound.raulc.dev",
-    npmVersion: "1.0.1",
+    docSlug: "rebound",
+    version: "1.0.1",
   },
   {
     title: "Bar App",
@@ -37,8 +37,8 @@ export const projects: Project[] = [
       "Specialized calculator for Brazilian financial context, handling specific taxes, interest rates, and local currency formatting.",
     tech: ["TypeScript", "NPM Package", "Jest"],
     github: "https://github.com/raulcabralc/financial-calc-br",
-    docs: "https://financial.raulc.dev",
-    npmVersion: "1.0.0",
+    docSlug: "financial",
+    version: "1.0.0",
   },
   {
     title: "PythonSOS",

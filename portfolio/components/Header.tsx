@@ -1,13 +1,13 @@
 "use client";
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMobileNavClick = (href: string) => {
     setIsMenuOpen(false);
-    // Pequeno delay para garantir que o menu feche antes do scroll
     setTimeout(() => {
       const element = document.querySelector(href);
       if (element) {
@@ -23,9 +23,13 @@ export function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-8 py-4 flex items-center justify-between">
-        <div className="text-xl font-bold text-white">
-          Raul<span className="text-rebound">.</span>
-        </div>
+        <Image
+          src="/assets/clean-logo.png"
+          alt="Logo"
+          width={50}
+          height={50}
+          className="sm:h-16 h-10 w-auto hover:transform hover:scale-105 transition-transform duration-300 ease-in-out"
+        />
 
         <nav className="hidden md:flex items-center space-x-8">
           <a
