@@ -1,112 +1,53 @@
-# 👋 Hi there! I'm Raul Cabral
+<div align="center">
+  <a href="https://raulc.dev" target="_blank">
+    <img src="https://raw.githubusercontent.com/raulcabralc/raulcabralc/main/portfolio/public/assets/logo-clean.png" width="100" alt="Logo"/>
+  </a>
 
----
+  <h1 align="center">raul cabral<span style="color:#f25f4c">.</span></h1>
 
-## 🚀 About Me
+  <p align="center">
+    <strong>software engineer &nbsp;•&nbsp; full stack &nbsp;•&nbsp; creative mind</strong>
+  </p>
 
-Passionate developer with a love for technology and extensive **full-stack development** experience. I'm always seeking new challenges and opportunities to grow professionally, creating efficient and user-friendly applications.
-
----
-
-## 💻 Tech Stack & Tools
-
-### **Languages**
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="JavaScript" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="TypeScript" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="40" alt="Java" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-plain.svg" height="40" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg" height="40" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" alt="Sass" />
+  <p align="center">
+    <a href="https://raulc.dev"><img src="https://img.shields.io/badge/portfolio-262626?style=for-the-badge&logo=vercel&logoColor=f25f4c&labelColor=171717" alt="Portfolio" /></a>&nbsp; <a href="https://linkedin.com/in/raul-cabral-caxeta"><img src="https://img.shields.io/badge/linkedin-262626?style=for-the-badge&logo=linkedin&logoColor=f25f4c&labelColor=171717" alt="LinkedIn" /></a>&nbsp; <a href="mailto:raulcabralc@gmail.com">
+      <img src="https://img.shields.io/badge/email-262626?style=for-the-badge&logo=gmail&logoColor=f25f4c&labelColor=171717" alt="Email" />
+    </a>
+  </p>
 </div>
 
-### **Frontend**
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="React" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" height="40" alt="Redux" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/storybook/storybook-original.svg" height="40" />
-</div>
+<br />
 
-### **Backend**
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="Node.js" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" height="40" alt="Flask" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nestjs/nestjs-original.svg" height="40" alt="NestJS" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/spring/spring-original.svg" height="40" alt="Spring" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg" height="40" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-plain.svg" height="40" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg" height="40" />
-</div>
+### // ⚡ about
 
-### **Databases**
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="MongoDB" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="40" alt="MySQL" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL" />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dynamodb/dynamodb-original.svg" height="40" />
-</div>
+building robust web applications and digital experiences with a focus on performance, scalability, and developer experience. based in brazil, currently exploring modern architectures and contributing to the open-source ecosystem. i build solutions that solve real problems, from financial engines to resilience libraries.
 
-### **Cloud & DevOps**
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" height="40" />
-</div>
+<br />
 
----
-
-## 📈 GitHub Stats
+### // ⚡ tech stack
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=raulcabralc&layout=compact&langs_count=7&theme=dark"/>
+  <img src="https://skillicons.dev/icons?i=ts,js,java,python,react,nextjs,tailwind,redux,sass&perline=9" />
+  <br /><br />
+  <img src="https://skillicons.dev/icons?i=nodejs,nestjs,spring,docker,rabbitmq,postgres,mongodb,mysql,aws&perline=9" />
 </div>
 
----
+<br />
 
-## 💼 Experience & Skills
+### // ⚡ github stats
 
-- 🌐 **Full-Stack Development**: Building robust, complete applications from frontend to backend, ensuring seamless user experiences.
-- 🎨 **Frontend Development**: Crafting responsive, intuitive, and visually appealing user interfaces.
-- ⚙️ **Backend Development**: Designing and developing scalable and secure APIs and server-side systems.
-- 🗄️ **Database Management**: Expertise in data modeling, optimization, and management with **MongoDB**, **MySQL**, and **MariaDB**.
+<div align="center">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raulcabralc&layout=compact&langs_count=7&theme=dark" height="160" alt="langs" />
+</div>
 
----
+<br />
 
-## 🔭 What I'm Currently Working On
+### // ⚡ selected projects
 
-- Actively developing **full-stack applications** using modern technologies.
-- Continuously **exploring new frameworks** and adopting best practices in software development.
-- Contributing to **open-source projects** to give back to the developer community.
+| project | description | stack |
+| :--- | :--- | :--- |
+| **[rebound-ts](https://github.com/raulcabralc/rebound-ts)** | resilient retry wrapper for typescript functions. | `ts` `npm` |
+| **[financial-calc-br](https://github.com/raulcabralc/financial-calc-br)** | financial engine adapted for brazilian context. | `ts` `math` |
+| **[raulc.dev](https://raulc.dev)** | personal portfolio and documentation hub. | `next.js` `three.js` |
 
----
-
-## 📫 Let's Connect
-
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/raul-cabral-caxeta) &nbsp; [![Email](https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:raulcabralc@gmail.com) &nbsp; [![Portfolio](https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=github&logoColor=white)](https://raulcabral.netlify.app/)
-
----
-
-## ⚡ Fun Facts
-
-- 🚀 Currently immersed in exciting full-stack development projects.
-- 🌱 Always eager to learn and master new technologies and frameworks.
-- 💬 I love sharing knowledge and collaborating on innovative and challenging projects.
-- 🎯 My focus is always on writing **clean, efficient, and scalable code**.
-
----
-
-⭐️ **Don't forget to star repositories you find interesting!**
+<br />
