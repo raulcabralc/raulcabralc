@@ -81,7 +81,7 @@ export function Projects() {
                         </a>
                         {project.docSlug && (
                           <a
-                            href={`docs.raulc.dev/docs/${project.docSlug}`}
+                            href={`https://docs.raulc.dev/docs/${project.docSlug}`}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="flex items-center gap-2 text-neutral-100 hover:text-rebound transition-colors text-sm"

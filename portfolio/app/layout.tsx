@@ -3,6 +3,8 @@ import { Outfit, JetBrains_Mono } from "next/font/google";
 import { HydrationWarningSupressor } from "../components/HydrationWarningSupressor";
 import "./globals.css";
 
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 const outfit = Outfit({
   variable: "--font-outfit",
   subsets: ["latin"],
