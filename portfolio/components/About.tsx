@@ -29,25 +29,24 @@ export function About() {
             {/* Text Content */}
             <div className="md:col-span-2 space-y-4">
               <p className="text-neutral-300 leading-relaxed">
-                I'm a dedicated Full Stack Developer who discovered my passion
-                for coding in early 2025. Since then, I've been on an intensive
-                journey mastering modern web technologies, specializing in{" "}
+                Full Stack Developer with expertise in building modern web
+                applications using{" "}
                 <span className="text-white font-medium">
                   NestJS, React, TypeScript, and AWS cloud architecture
                 </span>
-                .
+                . I focus on creating scalable solutions and writing clean,
+                maintainable code.
               </p>
 
               <p className="text-neutral-300 leading-relaxed">
-                Recently completed an intensive internship at{" "}
+                Software Engineer at{" "}
                 <span className="text-rebound font-medium">Compass.UOL</span>,
-                where I built scalable enterprise applications and gained
-                hands-on experience with{" "}
+                where I develop enterprise applications and work with{" "}
                 <span className="text-white font-medium">
-                  cloud infrastructure and modern development practices
+                  cloud infrastructure and DevOps practices
                 </span>
-                . I'm passionate about contributing to the developer community
-                through open-source projects.
+                . I enjoy solving complex problems and contributing to
+                open-source projects in my spare time.
               </p>
 
               {/* Stats */}
@@ -77,7 +76,7 @@ export function About() {
             <div className="relative">
               <div className="w-full aspect-square rounded-lg overflow-hidden border border-neutral-700">
                 <img
-                  src="/assets/profile.png"
+                  src="/assets/profile.jpg"
                   alt="Raul Cabral"
                   className="w-full h-full object-cover"
                 />
