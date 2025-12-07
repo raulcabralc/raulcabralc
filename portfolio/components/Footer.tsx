@@ -120,7 +120,7 @@ export function Footer() {
                 </li>
                 <li>
                   <a
-                    href="#technologies"
+                    href="#techs"
                     className="hover:text-rebound transition-colors py-1 block sm:inline-block"
                   >
                     Technologies
