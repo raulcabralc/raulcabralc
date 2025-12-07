@@ -37,7 +37,7 @@ building robust web applications and digital experiences with a focus on perform
 ### // ⚡ github stats
 
 <div align="center">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raulcabralc&layout=compact&langs_count=7&theme=dark" height="160" alt="langs" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=raulcabralc&layout=compact&langs_count=7&theme=dark&hide_border=true" height="160" alt="langs" />
 </div>
 
 <br />
@@ -46,6 +46,6 @@ building robust web applications and digital experiences with a focus on perform
 
 | project | description | stack |
 | :--- | :--- | :--- |
-| **[rebound-ts](https://github.com/raulcabralc/rebound-ts)** | resilient retry wrapper for typescript functions. | `ts` `npm` |
+| **[rebound-ts](https://github.com/raulcabralc/rebound-ts)** | resilient retry decorator for typescript functions. | `ts` `npm` |
 | **[financial-calc-br](https://github.com/raulcabralc/financial-calc-br)** | financial engine adapted for brazilian context. | `ts` `math` |
 | **[raulc.dev](https://raulc.dev)** | personal portfolio and documentation hub. | `next.js` `three.js` |
