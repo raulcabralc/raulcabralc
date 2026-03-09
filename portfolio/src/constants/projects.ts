@@ -11,11 +11,11 @@ export const projects: Project[] = [
     version: "1.0.1",
   },
   {
-    title: "Bar App",
+    title: "TAB",
     description:
       "Application designed for bar management or ordering systems, featuring menu visualization and order tracking capabilities.",
     tech: ["React", "TypeScript", "NestJS"],
-    github: "https://github.com/raulcabralc/bar-app",
+    github: "https://github.com/raulcabralc/tab",
   },
   {
     title: "InfoLei",
